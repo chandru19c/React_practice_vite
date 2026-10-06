@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+/***AutocompleteSearch***/
+
 .search-container {
   margin: auto;
   text-align: center;
@@ -29,4 +31,19 @@
 .result:hover {
   background-color: beige;
   cursor: pointer;
+}
+
+/***Input OTP****/
+.input-container {
+  margin: 20px;
+  text-align: center;
+}
+
+.input {
+  border: 1px solid black;
+  width:40px;
+  height:40px;
+  margin:4px;
+  text-align:center;
+  font-size:20px;
 }
