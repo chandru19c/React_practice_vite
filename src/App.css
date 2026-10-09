@@ -1,5 +1,21 @@
 @import "tailwindcss";
 
+/**Accordion***/
+.acc-container {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.acc-btn {
+  padding: 5px;
+  background-color: chocolate;
+  border-radius: 2px;
+  margin: 20px;
+  cursor: pointer;
+}
+
 /***AutocompleteSearch***/
 
 .search-container {
@@ -41,9 +57,33 @@
 
 .input {
   border: 1px solid black;
-  width:40px;
-  height:40px;
-  margin:4px;
-  text-align:center;
-  font-size:20px;
+  width: 40px;
+  height: 40px;
+  margin: 4px;
+  text-align: center;
+  font-size: 20px;
+}
+
+/**Slider Image****/
+
+.slider-container {
+  width: 500px;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: 40px auto;
+}
+
+.slider-btn {
+  background-color: orange;
+  padding: 5px;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.slider-image {
+  width: 500px;
+  height: 300px;
 }

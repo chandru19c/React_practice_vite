@@ -1,16 +1,16 @@
-//import ImageSlider from "./components/ImageSlider";
-//import AccordionContent from "./components/AccordionContent";
+// import ImageSlider from "./components/ImageSlider";
+//import AccordionContent2 from "./components/AccordionContent2";
 //import ChipsInput from "./components/ChipsInput";
-//import AutocompleteSearch from "./components/AutocompleteSearch"
-import InputOTP from "./components/InputOTP";
+//import AutocompleteSearch2 from "./components/AutocompleteSearch2";
+import InputOTP2 from "./components/InputOTP2";
 function App() {
   return (
     <>
       {/* <ImageSlider /> */}
-      {/* <AccordionContent /> */}
+      {/* <AccordionContent2 /> */}
       {/* <ChipsInput /> */}
-      {/* <AutocompleteSearch /> */}
-      <InputOTP />
+      {/* <AutocompleteSearch2 /> */}
+      <InputOTP2 />
     </>
   );
 }
