@@ -87,3 +87,93 @@
   width: 500px;
   height: 300px;
 }
+
+/*************PAGINATION**********/
+
+.pagination-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  margin: 5px;
+}
+
+.card-container {
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.card-image {
+  width: 100px;
+  height: 100px;
+}
+
+.page-number {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: brown;
+}
+
+/**PROGRESS BAR ****/
+
+.outer {
+  border: 1px solid black;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.inner {
+  background-color: green;
+  text-align: center;
+  color: white;
+  text-align: right;
+}
+
+/*****Tabs Form ******/
+.heading-container {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.heading {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.tab-body {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.inputField {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 10px;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.submit-btn,
+.button-btn {
+  background-color: brown;
+  color: white;
+  padding: 5px;
+  margin:5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
