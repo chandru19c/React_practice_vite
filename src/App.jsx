@@ -5,7 +5,8 @@
 //import InputOTP2 from "./components/InputOTP2";
 //import Pagination from "./components/Pagination";
 //import ProgressParent from "./components/ProgressParent";
-import TabForm from "./components/TabForm";
+// import TabForm from "./components/TabForm";
+import ToDoList from "./components/ToDoList";
 function App() {
   return (
     <>
@@ -16,7 +17,8 @@ function App() {
       {/* <InputOTP2 /> */}
       {/* <Pagination /> */}
       {/* <ProgressParent /> */}
-      <TabForm />
+      {/* <TabForm /> */}
+      <ToDoList />
     </>
   );
 }

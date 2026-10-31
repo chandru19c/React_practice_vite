@@ -173,7 +173,41 @@
   background-color: brown;
   color: white;
   padding: 5px;
-  margin:5px;
+  margin: 5px;
   border-radius: 4px;
   cursor: pointer;
+}
+
+/****To Do List**/
+
+.todo-container {
+  margin: 5px;
+}
+.todo-container > span {
+  margin: 10px;
+}
+
+.todo-container > button {
+  background-color: tomato;
+  padding: 5px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.inputText {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 5px;
+}
+
+.addBtn {
+  background-color: tomato;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+.strike-through {
+  text-decoration: line-through;
 }
